@@ -1,0 +1,13 @@
+
+while True:
+##Se solicita al usuario que ingrese un número entero.
+    numero = float (input("ingrese numero (numeros negativos invalidos):"))
+    if numero > 0:
+## Se verifica que el número es menor que 1, si es así se imprime el mensaje de que tiene que ser un numero positivo   
+        print ("Por favor, ingresa un número entero positivo.")
+        break
+cuadrado = numero ** 2
+print (f"el cuadrado de {numero} es {cuadrado}")
+##Si el número es válido, se ejecuta el bucle que imprime el cuadrado del numero
+   
+

@@ -1,0 +1,3 @@
+pA, pB, anio = 25e6, 18.9e6, 2022
+while pB <= pA: pA *= 1.02; pB *= 1.03; anio += 1
+print(anio)

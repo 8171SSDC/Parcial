@@ -1,0 +1,19 @@
+# Poblaciones iniciales
+poblacion_A = 25000000  # País A
+poblacion_B = 18900000  # País B
+
+# Tasas de crecimiento
+tasa_A = 0.02  # 2%
+tasa_B = 0.03  # 3%
+
+# Año inicial
+anio = 2022
+
+# Bucle para calcular el crecimiento
+while poblacion_B <= poblacion_A:
+    poblacion_A *= (1 + tasa_A)
+    poblacion_B *= (1 + tasa_B)
+    anio += 1
+
+# Imprimir el año en que la población B supera a la A
+print(f"La población del país B superará a la del país A en el año {anio}.")
